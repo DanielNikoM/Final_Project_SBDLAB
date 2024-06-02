@@ -1,0 +1,187 @@
+2024-06-02 10:43:40:4340 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:47:49:4749 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:47:50:4750 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:48:27:4827 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:48:28:4828 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:56:11:5611 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 10:56:23:5623 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:01:52:152 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:02:39:239 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:02:48:248 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:02:49:249 [32minfo[39m: [32mConnected to the database[39m
+2024-06-02 11:05:52:552 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:05:53:553 [32minfo[39m: [32mConnected to the database[39m
+2024-06-02 11:06:20:620 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:06:20:620 [32minfo[39m: [32mConnected to the database[39m
+2024-06-02 11:06:51:651 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:06:51:651 [32minfo[39m: [32mConnected to the database[39m
+2024-06-02 11:07:03:73 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:07:03:73 [32minfo[39m: [32mConnected to the database[39m
+2024-06-02 11:07:18:718 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:07:46:746 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:07:46:746 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:09:03:93 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:09:08:98 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:09:14:914 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:09:48:948 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:09:49:949 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:23:13:2313 [32minfo[39m: [32m<Buffer 6a d7 47 ea c3 b0 92 27 10 c5 b9 d6 3c db 24 83 02 13 a8 f1 a5 fd 42 df af 5f 5c b4 7f b4 1d b6>[39m
+2024-06-02 11:23:13:2313 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:23:14:2314 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:23:25:2325 [32minfo[39m: [32m6ad747eac3b0922710c5b9d63cdb24830213a8f1a5fd42dfaf5f5cb47fb41db6[39m
+2024-06-02 11:23:25:2325 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:23:25:2325 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:23:33:2333 [32minfo[39m: [32m6ad747eac3b0922710c5b9d63cdb24830213a8f1a5fd42dfaf5f5cb47fb41db6[39m
+2024-06-02 11:23:33:2333 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:23:33:2333 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:23:46:2346 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:23:47:2347 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:24:07:247 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:24:07:247 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:24:09:249 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:24:09:249 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:27:07:277 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:27:08:278 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:27:09:279 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:27:09:279 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:27:23:2723 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:27:23:2723 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:27:24:2724 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:27:24:2724 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:28:33:2833 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:28:34:2834 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:28:35:2835 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:28:35:2835 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:28:55:2855 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:28:55:2855 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:28:57:2857 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:28:57:2857 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:30:17:3017 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:30:17:3017 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:30:19:3019 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:30:19:3019 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:32:11:3211 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:32:11:3211 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:32:12:3212 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:32:12:3212 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:38:26:3826 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:38:38:3838 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:38:39:3839 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:38:39:3839 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:39:36:3936 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:39:37:3937 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:39:38:3938 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:39:38:3938 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:41:11:4111 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:41:11:4111 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:41:13:4113 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:41:13:4113 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:42:32:4232 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:42:33:4233 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:42:34:4234 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:42:34:4234 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:42:51:4251 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:42:52:4252 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:42:52:4252 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:42:53:4253 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:44:46:4446 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:44:47:4447 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:48:12:4812 [34mhttp[39m: [34m::1 POST /account/register 200 58 - 1139.070 ms[39m
+[34m[39m
+2024-06-02 11:48:56:4856 [34mhttp[39m: [34m::1 POST /account/register 200 75 - 1.017 ms[39m
+[34m[39m
+2024-06-02 11:51:00:510 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:51:12:5112 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:51:15:5115 [34mhttp[39m: [34m::1 POST /account/login 200 267 - 299.570 ms[39m
+[34m[39m
+2024-06-02 11:52:33:5233 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:52:34:5234 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:52:55:5255 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:52:55:5255 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:52:58:5258 [34mhttp[39m: [34m::1 POST /account/login 200 80 - 344.635 ms[39m
+[34m[39m
+2024-06-02 11:53:46:5346 [34mhttp[39m: [34m::1 POST /account/login 200 267 - 183.286 ms[39m
+[34m[39m
+2024-06-02 11:54:50:5450 [34mhttp[39m: [34m::1 PUT /account/update/2b914ec4-1cb9-4f23-9365-bba32a289528 200 75 - 1131.471 ms[39m
+[34m[39m
+2024-06-02 11:55:23:5523 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:55:23:5523 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:55:26:5526 [34mhttp[39m: [34m::1 PUT /account/update/2b914ec4-1cb9-4f23-9365-bba32a289528 200 2025 - 297.319 ms[39m
+[34m[39m
+2024-06-02 11:56:07:567 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 11:56:07:567 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 11:56:13:5613 [34mhttp[39m: [34m::1 PUT /account/update/2b914ec4-1cb9-4f23-9365-bba32a289528 200 270 - 1986.777 ms[39m
+[34m[39m
+2024-06-02 12:34:34:3434 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:34:46:3446 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:56:23:5623 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:56:35:5635 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:57:05:575 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:57:05:575 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:57:54:5754 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:57:54:5754 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:58:11:5811 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:58:11:5811 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:58:13:5813 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:58:13:5813 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:58:20:5820 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:58:21:5821 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:58:22:5822 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:58:23:5823 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:59:27:5927 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:59:27:5927 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 12:59:29:5929 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 12:59:29:5929 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:08:24:824 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:08:25:825 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:08:26:826 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:08:26:826 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:08:43:843 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:08:43:843 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:08:45:845 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:08:45:845 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:14:03:143 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:14:04:144 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:14:14:1414 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:14:54:1454 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:14:54:1454 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:14:56:1456 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:14:56:1456 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:17:47:1747 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:17:48:1748 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:17:49:1749 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:17:49:1749 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:22:44:2244 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:22:45:2245 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:22:46:2246 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:22:46:2246 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:23:39:2339 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:23:39:2339 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:23:55:2355 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:23:56:2356 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:23:58:2358 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:23:58:2358 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:24:00:240 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:24:00:240 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:24:47:2447 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:24:47:2447 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:24:48:2448 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:24:49:2449 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:25:23:2523 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:25:23:2523 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:25:25:2525 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:25:25:2525 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:25:41:2541 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:25:41:2541 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:25:43:2543 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:25:43:2543 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:27:25:2725 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:27:25:2725 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:27:26:2726 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:27:26:2726 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:27:40:2740 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:27:40:2740 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:27:42:2742 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:27:42:2742 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-02 13:27:52:2752 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-02 13:28:03:283 [32minfo[39m: [32mDatabase can be connected[39m
