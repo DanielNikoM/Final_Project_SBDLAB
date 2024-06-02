@@ -52,6 +52,7 @@ async function register(req, res) {
             message: "Register Failed! Email not valid!",
             data: null
         });
+        return;
     }
     const hashedPassword = hashThis(password);
     try {
@@ -159,30 +160,32 @@ async function deleteAccount(req, res) {
             );
             // find owned team
             const teamsId = await pool.query(
-                "SELECT id FROM team WHERE owner_id = $1"
+                "SELECT id FROM team WHERE owner_id = $1",
                 [accountId]
             );
-            for (let i = teamsId.rowCount; i > 0; i--) {
-                // delete note from the owned team
-                await pool.query(
-                    "DELETE FROM note WHERE team_id = $1",
-                    [teamsId.rows[i-1]]
-                );
-                // delete reminder from the owned team
-                await pool.query(
-                    "DELETE FROM reminder WHERE team_id = $1",
-                    [teamsId.rows[i-1]]
-                );
-                // remove member from the owned team
-                await pool.query(
-                    "DELETE FROM account_team WHERE team_id = $1",
-                    [teamsId.rows[i-1]]
-                );
-                // delete owned team
-                await pool.query(
-                    "DELETE FROM team WHERE id = $1",
-                    [teamsId.rows[i-1]]
-                );
+            if (teamsId.rowCount != 0) {
+                for (let i = teamsId.rowCount; i > 0; i--) {
+                    // delete note from the owned team
+                    await pool.query(
+                        "DELETE FROM note WHERE team_id = $1",
+                        [teamsId.rows[i - 1]]
+                    );
+                    // delete reminder from the owned team
+                    await pool.query(
+                        "DELETE FROM reminder WHERE team_id = $1",
+                        [teamsId.rows[i - 1]]
+                    );
+                    // remove member from the owned team
+                    await pool.query(
+                        "DELETE FROM account_team WHERE team_id = $1",
+                        [teamsId.rows[i - 1]]
+                    );
+                    // delete owned team
+                    await pool.query(
+                        "DELETE FROM team WHERE id = $1",
+                        [teamsId.rows[i - 1]]
+                    );
+                }
             }
             // remove account
             await pool.query(
