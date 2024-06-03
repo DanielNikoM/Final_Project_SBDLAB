@@ -1,6 +1,5 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
 import { Link } from 'react-router-dom';
 
 export function Navbar() {
@@ -17,12 +16,12 @@ export function Navbar() {
           <div className="flex items-center flex-shrink-0">
             <span className="text-xl font-bold tracking-tight">SecondBrain</span>
             <ul className="hidden lg:flex ml-8 space-x-12">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
+              <Link to ="/">
+                Home
+              </Link>
+              <Link to="/about">
+                About
+              </Link>
               <li>
                 <a href="#services">Services</a>
               </li>
