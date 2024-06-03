@@ -14,6 +14,10 @@ export function Register() {
     const handleRegister = async (e) => {
         e.preventDefault();
         const response = await register(name, email, password);
+        if (name === '' || email === '' || password === '') {
+            setError('Name, email, and password must be filled');
+            return;
+        }
         if (response.success) {
             navigate('/login');
         } else {

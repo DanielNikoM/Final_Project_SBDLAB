@@ -308,3 +308,77 @@
 [34m[39m
 2024-06-03 20:32:49:3249 [34mhttp[39m: [34m::1 POST /account/login 200 253 - 839.103 ms[39m
 [34m[39m
+2024-06-03 21:36:58:3658 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 3.450 ms[39m
+[34m[39m
+2024-06-03 21:36:59:3659 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 1216.408 ms[39m
+[34m[39m
+2024-06-03 21:36:59:3659 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 807.973 ms[39m
+[34m[39m
+2024-06-03 21:37:03:373 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 125.592 ms[39m
+[34m[39m
+2024-06-03 21:37:05:375 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.278 ms[39m
+[34m[39m
+2024-06-03 21:37:05:375 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 107.843 ms[39m
+[34m[39m
+2024-06-03 21:37:07:377 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 75.473 ms[39m
+[34m[39m
+2024-06-03 21:37:23:3723 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 0.318 ms[39m
+[34m[39m
+2024-06-03 21:37:23:3723 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 1.491 ms[39m
+[34m[39m
+2024-06-03 21:37:25:3725 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 1.081 ms[39m
+[34m[39m
+2024-06-03 21:40:37:4037 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.430 ms[39m
+[34m[39m
+2024-06-03 21:40:37:4037 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 608.253 ms[39m
+[34m[39m
+2024-06-03 21:40:38:4038 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 103.368 ms[39m
+[34m[39m
+2024-06-03 21:40:38:4038 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 125.701 ms[39m
+[34m[39m
+2024-06-03 21:40:39:4039 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 97.664 ms[39m
+[34m[39m
+2024-06-03 21:40:40:4040 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 147.961 ms[39m
+[34m[39m
+2024-06-03 21:41:26:4126 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.298 ms[39m
+[34m[39m
+2024-06-03 21:41:27:4127 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 653.793 ms[39m
+[34m[39m
+2024-06-03 21:41:37:4137 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.252 ms[39m
+[34m[39m
+2024-06-03 21:41:37:4137 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 124.120 ms[39m
+[34m[39m
+2024-06-03 21:41:37:4137 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 119.664 ms[39m
+[34m[39m
+2024-06-03 21:41:38:4138 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 102.773 ms[39m
+[34m[39m
+2024-06-03 21:42:32:4232 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 0.289 ms[39m
+[34m[39m
+2024-06-03 21:42:32:4232 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 1.164 ms[39m
+[34m[39m
+2024-06-03 21:42:37:4237 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.401 ms[39m
+[34m[39m
+2024-06-03 21:42:38:4238 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 829.353 ms[39m
+[34m[39m
+2024-06-03 21:42:38:4238 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 646.226 ms[39m
+[34m[39m
+2024-06-03 21:42:48:4248 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 0.427 ms[39m
+[34m[39m
+2024-06-03 21:42:48:4248 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 0.975 ms[39m
+[34m[39m
+2024-06-03 22:34:21:3421 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 1.936 ms[39m
+[34m[39m
+2024-06-03 22:34:22:3422 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 253 - 950.273 ms[39m
+[34m[39m
+2024-06-03 23:12:35:1235 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 2.905 ms[39m
+[34m[39m
+2024-06-03 23:12:35:1235 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 5.365 ms[39m
+[34m[39m
+2024-06-03 23:12:40:1240 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 0.392 ms[39m
+[34m[39m
+2024-06-03 23:12:41:1241 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 983.543 ms[39m
+[34m[39m
+2024-06-03 23:12:41:1241 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 62.804 ms[39m
+[34m[39m
+2024-06-03 23:12:41:1241 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 65.733 ms[39m
+[34m[39m

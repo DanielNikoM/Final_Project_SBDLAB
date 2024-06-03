@@ -12,6 +12,10 @@ export function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         const response = await login(email, password);
+        if (email === '' || password === '') {
+            setError('Email and password must be filled');
+            return;
+        }
         if (response.success) {
             navigate('/home');
         } else {
@@ -38,7 +42,7 @@ export function Login() {
                     </div>
                     <button className='border w-full my-5 py-2 bg-black hover:bg-gray-600 text-white'>Log in</button>
                     <div className='text-center mt-2 mb-4'>
-                        <p>Don't have an account? <Link to="/register"><strong>Register</strong></Link></p>
+                        <p>Don't have an account? <Link to="/register"><strong>Register now</strong></Link></p>
                     </div>
                     {error && <div className='text-red-500 text-center'>{error}</div>}
                 </form>
