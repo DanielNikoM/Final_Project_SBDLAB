@@ -4,6 +4,8 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register'; 
 import { Home } from './pages/Home';
 import { About } from './pages/About';
+import Teams  from './pages/Teams';
+import CreateTeam from './pages/CreateTeam';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/about" element={<About />} />
+        <Route path="/create-team" element={<CreateTeam />} />
+        <Route path="/teams" element={<Teams />} />
       </Routes>
     </Router>
   );

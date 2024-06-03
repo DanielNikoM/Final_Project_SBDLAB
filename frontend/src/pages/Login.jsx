@@ -17,7 +17,7 @@ export function Login() {
             return;
         }
         if (response.success) {
-            navigate('/home');
+            navigate('/teams');
         } else {
             setError(response.data.message);
         }
