@@ -209,9 +209,31 @@ async function deleteAccount(req, res) {
     }
 }
 
+async function getAllAccount(req, res) {
+    try {
+        const queryResult = await pool.query(
+            "SELECT * FROM account"
+        );
+        res.status(200).json({
+            success: true,
+            message: "Get all account success!",
+            data: queryResult.rows
+        });
+    }
+    catch (error) {
+        logger.error(error);
+        res.status(500).json({
+            success: false,
+            message: "Internal Server Error",
+            data: null
+        });
+    }
+}
+
 module.exports = {
     login,
     register,
     updateAccount,
-    deleteAccount
+    deleteAccount,
+    getAllAccount
 }

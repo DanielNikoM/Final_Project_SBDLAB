@@ -241,3 +241,70 @@
 [34m[39m
 2024-06-02 15:46:14:4614 [34mhttp[39m: [34m::1 PUT /account/update/1c8b378d-97da-4083-acee-3013b7e9b515 200 270 - 261.022 ms[39m
 [34m[39m
+2024-06-03 20:18:26:1826 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:18:28:1828 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-03 20:19:37:1937 [34mhttp[39m: [34m::1 POST /account/register 201 58 - 1092.421 ms[39m
+[34m[39m
+2024-06-03 20:19:52:1952 [34mhttp[39m: [34m::1 GET /account/getAllAcount 404 159 - 4.257 ms[39m
+[34m[39m
+2024-06-03 20:20:09:209 [34mhttp[39m: [34m::1 GET /account/getAllAccount 200 484 - 768.565 ms[39m
+[34m[39m
+2024-06-03 20:22:06:226 [34mhttp[39m: [34m::1 DELETE /account/80d58365-5f09-49b1-9b9e-77078fd572fd 200 56 - 998.417 ms[39m
+[34m[39m
+2024-06-03 20:22:43:2243 [34mhttp[39m: [34m::1 GET /account/getAllAccount 200 281 - 740.996 ms[39m
+[34m[39m
+2024-06-03 20:23:09:239 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 1.173 ms[39m
+[34m[39m
+2024-06-03 20:23:11:2311 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.715 ms[39m
+[34m[39m
+2024-06-03 20:24:21:2421 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.480 ms[39m
+[34m[39m
+2024-06-03 20:24:22:2422 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.647 ms[39m
+[34m[39m
+2024-06-03 20:24:33:2433 [34mhttp[39m: [34m::1 GET /account/getAllAccount 200 281 - 793.887 ms[39m
+[34m[39m
+2024-06-03 20:25:42:2542 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.716 ms[39m
+[34m[39m
+2024-06-03 20:25:46:2546 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.501 ms[39m
+[34m[39m
+2024-06-03 20:25:47:2547 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.428 ms[39m
+[34m[39m
+2024-06-03 20:25:47:2547 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.699 ms[39m
+[34m[39m
+2024-06-03 20:25:47:2547 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.657 ms[39m
+[34m[39m
+2024-06-03 20:25:47:2547 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.504 ms[39m
+[34m[39m
+2024-06-03 20:25:47:2547 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.402 ms[39m
+[34m[39m
+2024-06-03 20:25:48:2548 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.430 ms[39m
+[34m[39m
+2024-06-03 20:25:48:2548 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.475 ms[39m
+[34m[39m
+2024-06-03 20:26:20:2620 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 200 11 - 0.490 ms[39m
+[34m[39m
+2024-06-03 20:28:57:2857 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.686 ms[39m
+[34m[39m
+2024-06-03 20:29:26:2926 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 200 11 - 0.442 ms[39m
+[34m[39m
+2024-06-03 20:30:10:3010 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:30:11:3011 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:30:12:3012 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-03 20:30:13:3013 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:30:14:3014 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-03 20:31:59:3159 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:32:00:320 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-03 20:32:01:321 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-03 20:32:02:322 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-03 20:32:20:3220 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 4.253 ms[39m
+[34m[39m
+2024-06-03 20:32:21:3221 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 201 58 - 1039.031 ms[39m
+[34m[39m
+2024-06-03 20:32:25:3225 [34mhttp[39m: [34m::1 GET /account/getAllAccount 200 484 - 84.736 ms[39m
+[34m[39m
+2024-06-03 20:32:33:3233 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 1.034 ms[39m
+[34m[39m
+2024-06-03 20:32:34:3234 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 253 - 104.896 ms[39m
+[34m[39m
+2024-06-03 20:32:49:3249 [34mhttp[39m: [34m::1 POST /account/login 200 253 - 839.103 ms[39m
+[34m[39m

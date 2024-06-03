@@ -9,11 +9,14 @@ const accountRoute = require('./src/routes/accountRoute');
 const teamRoute = require('./src/routes/teamRoute');*/
 const noteRoute = require('./src/routes/noteRoute');
 const reminderRoute = require('./src/routes/reminderRoute');
+const cors = require('cors');
 
 const app = express();
 app.use(loggingMidware);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
+
 databaseConnectionTest();
 
 app.use('/account', accountRoute);

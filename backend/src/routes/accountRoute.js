@@ -12,5 +12,7 @@ router.post('/register', accountController.register);
 router.delete('/:accountId', accountController.deleteAccount);
 // Update account PUT '/update'
 router.put('/update/:accountId', accountController.updateAccount);
+// Get all account GET '/getAllAccount'
+router.get('/getAllAccount', accountController.getAllAccount);
 
 module.exports = router;
