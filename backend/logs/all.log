@@ -536,3 +536,49 @@
 [34m[39m
 2024-06-04 01:36:36:3636 [34mhttp[39m: [34m::1 GET /team/undefined 404 153 - 0.157 ms[39m
 [34m[39m
+2024-06-04 09:24:42:2442 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-04 09:24:44:2444 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-04 09:24:58:2458 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 3.265 ms[39m
+[34m[39m
+2024-06-04 09:24:59:2459 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 253 - 1133.350 ms[39m
+[34m[39m
+2024-06-04 09:24:59:2459 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 6.544 ms[39m
+[34m[39m
+2024-06-04 09:24:59:2459 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.436 ms[39m
+[34m[39m
+2024-06-04 09:25:06:256 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.262 ms[39m
+[34m[39m
+2024-06-04 09:25:06:256 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 0.862 ms[39m
+[34m[39m
+2024-06-04 09:25:37:2537 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.078 ms[39m
+[34m[39m
+2024-06-04 09:25:37:2537 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.373 ms[39m
+[34m[39m
+2024-06-04 09:42:37:4237 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /team/create 204 0 - 0.416 ms[39m
+[34m[39m
+2024-06-04 09:42:37:4237 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /team/create 404 151 - 1.444 ms[39m
+[34m[39m
+2024-06-04 09:42:38:4238 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /team/create 404 151 - 1.408 ms[39m
+[34m[39m
+2024-06-04 09:42:38:4238 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /team/create 404 151 - 1.497 ms[39m
+[34m[39m
+2024-06-04 09:42:40:4240 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.256 ms[39m
+[34m[39m
+2024-06-04 09:42:40:4240 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.333 ms[39m
+[34m[39m
+2024-06-04 09:42:42:4242 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 0.753 ms[39m
+[34m[39m
+2024-06-04 09:42:42:4242 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 0.732 ms[39m
+[34m[39m
+2024-06-04 22:05:23:523 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-04 22:05:24:524 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-04 22:07:01:71 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 3.973 ms[39m
+[34m[39m
+2024-06-04 22:07:02:72 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 469.484 ms[39m
+[34m[39m
+2024-06-04 22:07:02:72 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 1150.121 ms[39m
+[34m[39m
+2024-06-04 22:07:04:74 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/register 204 0 - 0.654 ms[39m
+[34m[39m
+2024-06-04 22:07:04:74 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 1.500 ms[39m
+[34m[39m
