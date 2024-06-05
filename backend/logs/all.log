@@ -582,3 +582,17 @@
 [34m[39m
 2024-06-04 22:07:04:74 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/register 200 75 - 1.500 ms[39m
 [34m[39m
+2024-06-05 10:42:11:4211 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-05 10:42:12:4212 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-05 11:00:50:050 [34mhttp[39m: [34m::ffff:127.0.0.1 OPTIONS /account/login 204 0 - 2.986 ms[39m
+[34m[39m
+2024-06-05 11:00:51:051 [34mhttp[39m: [34m::ffff:127.0.0.1 POST /account/login 200 80 - 1144.659 ms[39m
+[34m[39m
+2024-06-05 11:15:35:1535 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 3.432 ms[39m
+[34m[39m
+2024-06-05 11:15:35:1535 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 1.426 ms[39m
+[34m[39m
+2024-06-05 11:15:56:1556 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 0.894 ms[39m
+[34m[39m
+2024-06-05 11:15:56:1556 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/undefined 404 153 - 0.945 ms[39m
+[34m[39m
