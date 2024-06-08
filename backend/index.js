@@ -5,8 +5,7 @@ const loggingMidware = require('./src/middlewares/loggingMiddleware');
 const { databaseConnectionTest } = require('./src/config/dbconfig');
 
 const accountRoute = require('./src/routes/accountRoute');
-/*
-const teamRoute = require('./src/routes/teamRoute');*/
+const teamRoute = require('./src/routes/teamRoute');
 const noteRoute = require('./src/routes/noteRoute');
 const reminderRoute = require('./src/routes/reminderRoute');
 const cors = require('cors');
@@ -20,8 +19,7 @@ app.use(cors());
 databaseConnectionTest();
 
 app.use('/account', accountRoute);
-/*
-app.use('/team', teamRoute);*/
+app.use('/team', teamRoute);
 app.use('/note', noteRoute);
 app.use('/reminder', reminderRoute);
 

@@ -2,11 +2,11 @@ const { pool } = require('../config/dbconfig');
 const logger = require('../tools/logger');
 
 async function createReminder(req, res) {
-    const { team_id, title, body, remided_at } = req.body;
+    const { team_id, title, body, reminded_at } = req.body;
     try {
         const queryResult = await pool.query(
             "INSERT INTO reminder (team_id, title, body, reminded_at) VALUES ($1, $2, $3, $4) RETURNING *",
-            [team_id, title, body, remided_at]
+            [team_id, title, body, reminded_at]
         );
         if (queryResult.rowCount != 0) {
             res.status(201).json({
@@ -91,7 +91,7 @@ async function deleteReminder(req, res) {
 }
 
 async function updateReminder(req, res) {
-    const { title, body, remided_at, status } = req.body;
+    const { title, body, reminded_at, status } = req.body;
     const { reminderId } = req.params;
     try {
         const searchQuery = await pool.query(
@@ -101,7 +101,7 @@ async function updateReminder(req, res) {
         if (searchQuery.rowCount != 0) {
             const queryResult = await pool.query(
                 "UPDATE reminder SET title = $1, body = $2, reminded_at = $3, status = $4 WHERE id = $5 RETURNING *",
-                [title, body, remided_at, status, reminderId]
+                [title, body, reminded_at, status, reminderId]
             );
             res.status(200).json({
                 success: true,
