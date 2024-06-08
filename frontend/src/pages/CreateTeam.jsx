@@ -25,7 +25,6 @@ const CreateTeam = () => {
         try {
             const response = await createTeam(teamName, description, members);
             if (response.success) {
-                // Handle success, maybe redirect
             } else {
                 console.error('Failed to create team:', response.data.message);
             }
