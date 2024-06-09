@@ -7,6 +7,7 @@
 2024-06-08 14:47:51:4751 [31merror[39m: [31minvalid input syntax for type uuid: "6ff5228e-7680-46f6-9c4a-c3efc82483b"[39m
 2024-06-08 14:54:15:5415 [31merror[39m: [31mnull value in column "team_id" of relation "note" violates not-null constraint[39m
 2024-06-08 14:56:31:5631 [31merror[39m: [31mnull value in column "reminded_at" of relation "reminder" violates not-null constraint[39m
+<<<<<<< HEAD
 2024-06-09 11:23:16:2316 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
 2024-06-09 11:23:16:2316 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
 2024-06-09 11:23:19:2319 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
@@ -259,3 +260,7 @@
 2024-06-09 22:56:29:5629 [31merror[39m: [31minvalid input syntax for type uuid: ":teamId"[39m
 2024-06-09 22:57:04:574 [31merror[39m: [31minvalid input syntax for type uuid: ":teamId"[39m
 2024-06-09 22:58:22:5822 [31merror[39m: [31minvalid input syntax for type uuid: ":teamId"[39m
+=======
+2024-06-09 19:05:03:53 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2024-06-09 19:05:03:53 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+>>>>>>> dbd95909355b3a2f8074fe57cacd3dc345c8fe42
