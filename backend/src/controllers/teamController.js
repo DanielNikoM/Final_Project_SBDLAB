@@ -187,27 +187,6 @@ async function getMemberFromTeam(req, res) {
 }
 
 async function joinTeam(req, res) {
-    const teamId = req.params;
-    const account_id = req.body;
-    try {
-        const queryResult = await pool.query(
-            "INSERT INTO account_team (team_id, account_id) VALUES ($1, $2) RETURNING *",
-            [teamId, account_id]
-        );
-        if (queryResult.rowCount != 0) {
-            
-        }
-    } catch (error) {
-        logger.error(error);
-        res.status(500).json({
-            success: false,
-            message: "Internal Server Error",
-            data: null
-        });
-    }
-}
-
-async function joinTeam(req, res) {
     const { teamId } = req.params;
     const { accountId } = req.body;
 

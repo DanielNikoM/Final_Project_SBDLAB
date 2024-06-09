@@ -1,5 +1,127 @@
 # SecondBrain (Backend)
-Bagian backend dari SecondBrain
+Contains SecondBrain backend informations.
+
+## UML Diagram
+```mermaid
+classDiagram
+    class accountController {
+        +validateEmail(input) boolean
+        +login(req, res) 
+        +register(req, res) 
+        +updateAccount(req, res) 
+        +deleteAccount(req, res) 
+        +getAllAccount(req, res) 
+    }
+
+    class noteController {
+        +createNote(req, res) 
+        +getNote(req, res) 
+        +deleteNote(req, res) 
+        +updateNote(req, res) 
+    }
+
+    class reminderController {
+        +createReminder(req, res) 
+        +getReminder(req, res) 
+        +deleteReminder(req, res) 
+        +updateReminder(req, res) 
+    }
+
+    class teamController {
+        +createTeam(req, res) 
+        +getTeamByTeamId(req, res) 
+        +getTeamByAccountId(req, res) 
+        +deleteTeam(req, res) 
+        +updateTeam(req, res) 
+        +getMemberFromTeam(req, res) 
+        +joinTeam(req, res) 
+        +leaveTeam(req, res) 
+    }
+
+    class accountRoute {
+        -router~express.Router~
+    }
+
+    class noteRoute {
+        -router~express.Router~
+    }
+
+    class reminderRoute {
+        -router~express.Router~
+    }
+
+    class teamRoute {
+        -router~express.Router~
+    }
+
+    class hasher {
+        +hashThis(thing)
+    }
+
+    class logger {
+        +error(message)
+        +warn(message)
+        +info(message)
+        +http(message)
+        +debug(message)
+    }
+
+    class dbconfig {
+        -pool~pg.Pool~
+        +databaseConnectionTest() 
+    }
+
+    class loggingMiddleware {
+        -morgan
+        -logger
+        -stream
+        +skip()
+        -morganMiddleware
+    }
+
+    class index {
+        -express
+        -bodyParser
+        -logger
+        -loggingMidware
+        -databaseConnectionTest
+        -accountRoute
+        -teamRoute
+        -noteRoute
+        -reminderRoute
+        -cors
+        -app
+    }
+
+    accountController --> dbconfig : uses
+    accountController --> hasher : uses
+    accountController --> logger : uses
+
+    noteController --> dbconfig : uses
+    noteController --> logger : uses
+
+    reminderController --> dbconfig : uses
+    reminderController --> logger : uses
+
+    teamController --> dbconfig : uses
+    teamController --> logger : uses
+
+    accountRoute --> accountController : uses
+    noteRoute --> noteController : uses
+    reminderRoute --> reminderController : uses
+    teamRoute --> teamController : uses
+
+    dbconfig --> logger : uses
+
+    loggingMiddleware --> logger : uses
+
+    index --> accountRoute : uses
+    index --> teamRoute : uses
+    index --> noteRoute : uses
+    index --> reminderRoute : uses
+    index --> loggingMiddleware : uses
+    index --> logger : uses
+```
 
 ## ER Diagram
 ```mermaid

@@ -678,3 +678,19 @@
 [34m[39m
 2024-06-06 23:09:00:90 [34mhttp[39m: [34m::1 GET /team/undefined 404 153 - 0.365 ms[39m
 [34m[39m
+2024-06-09 19:02:42:242 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-09 19:02:42:242 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-09 19:03:05:35 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-09 19:03:06:36 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-09 19:05:03:53 [34mhttp[39m: [34m::1 OPTIONS /account/login 204 0 - 2.789 ms[39m
+[34m[39m
+2024-06-09 19:05:03:53 [34mhttp[39m: [34m::1 POST /account/login 200 269 - 406.726 ms[39m
+[34m[39m
+2024-06-09 19:05:03:53 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2024-06-09 19:05:03:53 [34mhttp[39m: [34m::1 GET /team/undefined 500 63 - 70.719 ms[39m
+[34m[39m
+2024-06-09 19:05:03:53 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2024-06-09 19:05:03:53 [34mhttp[39m: [34m::1 GET /team/undefined 500 63 - 186.873 ms[39m
+[34m[39m
+2024-06-09 21:34:06:346 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-09 21:34:17:3417 [32minfo[39m: [32mDatabase can be connected[39m
