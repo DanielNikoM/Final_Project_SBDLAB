@@ -3267,3 +3267,9 @@
 2024-06-09 21:34:06:346 [32minfo[39m: [32mServer is running and listening on port 3000[39m
 2024-06-09 21:34:17:3417 [32minfo[39m: [32mDatabase can be connected[39m
 >>>>>>> dbd95909355b3a2f8074fe57cacd3dc345c8fe42
+2024-06-09 23:37:59:3759 [32minfo[39m: [32mServer is running and listening on port 3000[39m
+2024-06-09 23:38:00:380 [32minfo[39m: [32mDatabase can be connected[39m
+2024-06-09 23:38:02:382 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/121b57aa-5bba-4c3c-82b3-f2e6f8d6543f 304 - - 420.375 ms[39m
+[34m[39m
+2024-06-09 23:38:02:382 [34mhttp[39m: [34m::ffff:127.0.0.1 GET /team/121b57aa-5bba-4c3c-82b3-f2e6f8d6543f 200 199 - 430.796 ms[39m
+[34m[39m
