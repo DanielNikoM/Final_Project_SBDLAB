@@ -1,11 +1,11 @@
 import React from 'react';
-import { Navbar}  from '../components/Navbar';
+import { HomeNavbar }  from '../components/HomeNavbar';
 import { Link } from "react-router-dom";
 
 export function Home() {
     return (
         <div>
-          <Navbar />
+          <HomeNavbar />
           <div className="flex flex-col items-center mt-6 lg:mt-28  ">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center font-bold tracking-wide">
               Plan and organize together

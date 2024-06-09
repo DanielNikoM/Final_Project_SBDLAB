@@ -2,7 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
-export function Navbar() {
+export function WelcomeNavbar() {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -16,9 +16,6 @@ export function Navbar() {
           <div className="flex items-center flex-shrink-0">
             <span className="text-xl font-bold tracking-tight">SecondBrain</span>
             <ul className="hidden lg:flex ml-8 space-x-12">
-              <Link to ="/">
-                Home
-              </Link>
               <Link to="/about">
                 About
               </Link>

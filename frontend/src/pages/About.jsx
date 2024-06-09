@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "../components/Navbar";
+import { WelcomeNavbar } from "../components/WelcomeNavbar";
 import { Link } from "react-router-dom";
 
 export function About() {
   return (
     <div>
-      <Navbar />
+      <WelcomeNavbar />
       <div className="flex flex-col items-center mt-6 lg:mt-20">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           About Us

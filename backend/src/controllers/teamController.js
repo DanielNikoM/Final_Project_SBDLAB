@@ -335,6 +335,26 @@ async function leaveTeam(req, res) {
     }
 }
 
+async function getAllTeams(req, res) {
+    try {
+        const queryResult = await pool.query(
+            "SELECT * FROM team"
+        );
+        res.status(200).json({
+            success: true,
+            message: "Get all teams success!",
+            data: queryResult.rows
+        });
+    } catch (error) {
+        logger.error(error);
+        res.status(500).json({
+            success: false,
+            message: "Internal Server Error",
+            data: null
+        });
+    }
+}
+
 module.exports = {
     createTeam,
     getTeamByTeamId,
@@ -343,5 +363,6 @@ module.exports = {
     updateTeam,
     getMemberFromTeam,
     joinTeam,
-    leaveTeam
+    leaveTeam,
+    getAllTeams
 }

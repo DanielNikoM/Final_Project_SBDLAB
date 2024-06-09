@@ -6,8 +6,10 @@ import { Welcome } from './pages/Welcome';
 import { About } from './pages/About';
 import { Home } from './pages/Home';
 import Teams  from './pages/Teams';
+import {Note} from './pages/Note';
 import CreateTeam from './pages/CreateTeam';
-
+import { CreateTeamPage } from './pages/CreateTeamPage';
+import { TeamDetails } from './pages/TeamDetails';
 function App() {
   return (
     <Router>
@@ -17,8 +19,10 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/about" element={<About />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/create-team" element={<CreateTeam />} />
+        <Route path="/create_team" element={<CreateTeamPage />} />
         <Route path="/teams" element={<Teams />} />
+        <Route path="/team/:teamId/notes" element={<Note />} />
+        <Route path="/team/:teamId" element={<TeamDetails />} />
       </Routes>
     </Router>
   );

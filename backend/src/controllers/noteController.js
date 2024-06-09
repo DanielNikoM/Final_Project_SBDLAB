@@ -2,11 +2,11 @@ const { pool } = require('../config/dbconfig');
 const logger = require('../tools/logger');
 
 async function createNote(req, res) {
-    const { team_id, title, body } = req.body;
+    const { teamId, title, body } = req.body;
     try {
         const queryResult = await pool.query(
             "INSERT INTO note (team_id, title, body) VALUES ($1, $2, $3) RETURNING *",
-            [team_id, title, body]
+            [teamId, title, body]
         );
         if (queryResult.rowCount != 0) {
             res.status(201).json({

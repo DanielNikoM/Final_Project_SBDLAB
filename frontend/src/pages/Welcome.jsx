@@ -1,10 +1,10 @@
-import { Navbar } from "../components/Navbar";
+import { WelcomeNavbar } from "../components/WelcomeNavbar";
 import { Link } from "react-router-dom";
 
 export function Welcome() {
   return (
     <div>
-      <Navbar />
+      <WelcomeNavbar />
       <div className="flex flex-col items-center mt-6 lg:mt-28  ">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center font-bold tracking-wide">
           Welcome to SecondBrain!

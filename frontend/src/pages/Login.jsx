@@ -11,13 +11,13 @@ export function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
+        setError("");  // Reset error message
+
         const response = await login(email, password);
-        if (email === "" || password === "") {
-            setError("Email and password must be filled");
-            return;
-        }
+
         if (response.success) {
-            navigate("/teams");
+            // Navigate to another page after successful login
+            navigate("/teams");  
         } else {
             setError(response.data.message);
         }
@@ -26,7 +26,7 @@ export function Login() {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
             <div className="hidden sm:block">
-                <img className="w-full h-full object-cover" src={loginImg} alt="" />
+                <img className="w-full h-full object-cover" src={loginImg} alt="Login" />
             </div>
 
             <div className="bg-gray-100 flex flex-col justify-center">

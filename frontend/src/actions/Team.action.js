@@ -9,24 +9,57 @@ const baseApiResponse = (data, isSuccess) => {
     };
 };
 
-export const createTeam = async (accountId, teamName) => {
+export const createTeam = async (owner_id, title) => {
     try {
         const response = await axios.post(`${API_URL}/team/create`, {
-            accountId,
-            teamName,
+            owner_id,
+            title,
         });
+        console.log('API response:', response.data); 
+        return { success: true, data: response.data };
+    } catch (error) {
+        console.error('API error:', error.response?.data);
+        return { success: false, message: error.response?.data?.message || error.message };
+    }
+};
+
+export const getTeamByTeamId = async (teamId) => {
+    try {
+        const response = await axios.get(`${API_URL}/team/${teamId}`);
         return baseApiResponse(response.data, true);
     } catch (error) {
         return baseApiResponse(error.response.data, false);
     }
 };
 
-export const getTeams = async (accountId) => {
+export const getAllTeams = async () => {
     try {
-        const response = await axios.get(`${API_URL}/team/${accountId}`);
+        const response = await axios.get(`${API_URL}/team/`);
         return baseApiResponse(response.data, true);
     } catch (error) {
         return baseApiResponse(error.response.data, false);
+    }
+};
+
+export const getTeams = async () => {
+    try {
+        // Retrieve UserID from local storage
+        const userID = localStorage.getItem('userID');
+        
+        if (!userID) {
+            throw new Error("UserID not found in local storage");
+        }
+
+        const response = await axios.get(`${API_URL}/team/account/${userID}`);
+        return {
+            success: true,
+            data: response.data,
+        };
+    } catch (error) {
+        return {
+            success: false,
+            data: error.response ? error.response.data : error.message,
+        };
     }
 };
 

@@ -20,5 +20,7 @@ router.put('/update/:teamId', teamController.updateTeam);
 router.post('/join/:teamId', teamController.joinTeam);
 // Leave a team POST '/leave/:teamId'
 router.post('/leave/:teamId', teamController.leaveTeam);
+// add get all team route
+router.get('/', teamController.getAllTeams);
 
 module.exports = router;
